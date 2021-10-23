@@ -107,7 +107,7 @@
             }
             
             function deleteContact(){
-                var confirmDelete = confirm("Delete contact. Are you sure");
+                var confirmDelete = confirm("Delete contact. Are you sure?");
                 
                 if(confirmDelete == true){
                     fetch(rootPath + 'controller/delete-contact/?id=' + id)
